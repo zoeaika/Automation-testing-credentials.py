@@ -1,4 +1,5 @@
 import streamlit as st
+from operator import itemgetter
 # Manual Implementation
 def sort_dict_list_manual(dict_list, key):
     """
@@ -21,7 +22,6 @@ def sort_dict_list_ai(dict_list, key):
     Returns:
         Sorted list of dictionaries
     """
-    from operator import itemgetter
     return sorted(dict_list, key=itemgetter(key))
 
 # Example usage
