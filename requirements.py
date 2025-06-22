@@ -1,2 +1,1 @@
-import streamlit as st
-from operator import itemgetter
+pip install  streamlit 
